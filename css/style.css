@@ -1310,6 +1310,45 @@ strong {
   }
 }
 
+.templatemo-line-header {
+  margin-top:100px;
+  margin-bottom:80px;
+}
+
+.templatemo-line-header span {
+  font-size: 3px; 
+  float :left; 
+  margin-top: 10px;
+}
+
+.team_hr {
+  border: 1px solid #fff; 
+  width: 39.5%; 
+  float: left;
+}
+
+.team_hr_left {
+  margin-right: 30px;
+  margin-left: 15px; 
+}
+
+.team_hr_right {
+  margin-left: 30px;
+}
+
+.hr_gray {
+  border: 1px solid #cccccc; 
+}
+
+
+.templatemo-partners {
+	border-top: 2px solid #cccccc;
+}
+
+.templatemo-partners .templatemo-partner-item {
+    margin-bottom: 5px;
+}
+
 @media screen and (max-width: 480px) {
   .navbar-brand {
     font-size: var(--p-font-size);
@@ -1339,3 +1378,45 @@ strong {
     padding: 4px 12px;
   }
 }
+
+@media (min-width:991px) and (max-width: 1200px) {
+  .team_hr {
+   width: 37%; 
+ }
+}
+
+@media (min-width:683px) and ( max-width: 991px) {
+  .team_hr {
+   width: 33%;
+ }
+}
+
+@media (min-width:585px) and ( max-width: 683px) {
+       .member-thumb .thumb-overlay {
+           padding-left: 25%;
+
+       }
+  .team_hr {
+   width: 30%;
+ }
+}
+
+@media (min-width:536px) and ( max-width: 585px) {
+  .team_hr {
+   width: 28%;
+ }
+}
+
+@media  (min-width:410px) and  ( max-width: 536px) {
+  .team_hr {
+   width: 21%;
+ }
+}
+
+@media  ( max-width: 410px) {
+  .team_hr {
+   width: 11%;
+ }
+}
+
+
