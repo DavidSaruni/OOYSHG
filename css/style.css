@@ -6,14 +6,14 @@
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #81B29A;
-  --secondary-color:              #3D405B;
+  --primary-color:                #87CEEB;
+  --secondary-color:              #008000;
   --section-bg-color:             #F4F1DE;
-  --custom-btn-bg-color:          #F2CC8F;
-  --custom-btn-bg-hover-color:    #E07A5F;
+  --custom-btn-bg-color:          #98fb98;
+  --custom-btn-bg-hover-color:    #00bfff;
   --dark-color:                   #000000;
   --p-color:                      #717275;
-  --link-hover-color:             #F2CC8F;
+  --link-hover-color:             #87cefa;
 
   --body-font-family:             'DM Sans', sans-serif;
 
@@ -432,7 +432,7 @@ strong {
 }
 
 .sticky-wrapper.is-sticky .navbar {
-  background-color: rgb(61 64 91);
+  background-color: rgb(0,128,0);
 }
 
 .navbar {
