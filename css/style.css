@@ -637,7 +637,7 @@ strong {
   HERO        
 -----------------------------------------*/
 .hero-section {
-  background-image: url('../images/ooyshg1.jpg');
+  /* background-image: url('../images/ooyshg1.jpg'); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -647,6 +647,29 @@ strong {
   height: 100vh;
   min-height: 670px;
   margin-bottom: -90px;
+}
+
+/* Add animation to cycle through images */
+@keyframes slideshow {
+  0% {
+    background-image: url('../images/ooyshg1.jpg');
+  }
+  25% {
+    background-image: url('../images/ooyshg.jpg');
+  }
+  50% {
+    background-image: url('../images/Community-Driven-Systems.jpg');
+  }
+  75% {
+    background-image: url('../images/oldoinyo-orok.jpg');
+  }
+  100% {
+    background-image: url('../images/Mt.+Kilimanjaro+from+Maili+Tisa-1.jpg');
+  }
+}
+
+.hero-section {
+  animation: slideshow 60s infinite; /* Change 20s to adjust slideshow speed */
 }
 
 .hero-50 {
